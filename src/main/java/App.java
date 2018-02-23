@@ -13,7 +13,7 @@ public class App {
 		if(number % 2 == 0)
 			return false;
 		
-		for (long i = 3; 1 < max ; i += 2){
+		for (long i = 3; i < max ; i += 2){
 			if (number % i == 0){
 				return false;
 			}
